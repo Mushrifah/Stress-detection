@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DataActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="7dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:text="Tdry"
+        android:gravity="start" />
+
+    <EditText
+        android:id="@+id/t_dry"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:padding="15dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorGrey"
+        android:background="@drawable/edit_round"
+        android:layout_height="wrap_content"
+        android:hint=" Enter the temperature of surrounding" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="7dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:text="Twet"/>
+
+    <EditText
+        android:id="@+id/t_wet"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:padding="15dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorGrey"
+        android:background="@drawable/edit_round"
+        android:layout_height="wrap_content"
+        android:hint=" Enter the temperature of leaf" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="7dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:text="Tcanopy"/>
+
+    <EditText
+        android:id="@+id/t_canopy"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:padding="15dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorGrey"
+        android:background="@drawable/edit_round"
+        android:layout_height="wrap_content"
+        android:hint=" Tempt of leaf taken from above the plant" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="7dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:text="Time of a Day"/>
+
+    <EditText
+        android:id="@+id/time_day"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="350dp"
+        android:padding="15dp"
+        android:textSize="16dp"
+        android:textColor="@color/colorGrey"
+        android:background="@drawable/edit_round"
+        android:layout_height="wrap_content"
+        android:hint=" Enter 0: Morning and 1: Afternoon" />
+
+    <Button
+        android:id="@+id/revive_btn"
+        android:layout_gravity="center_horizontal"
+        android:text="Check"
+        android:background="@drawable/button_round"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/resultData"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Results" />
+
+</LinearLayout>

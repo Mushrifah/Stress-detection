@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/choose_img_btn"
+        android:text="Choose Image"
+        android:background="@drawable/button_round"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:scaleType="centerCrop"
+        android:layout_margin="20dp"
+        android:src="@drawable/upload1"
+        android:layout_width= "300dp"
+        android:layout_height="300dp"/>
+
+
+    <Button
+        android:id="@+id/analyze_btn"
+        android:text="Analyze"
+        android:background="@drawable/button_round"
+        android:layout_marginTop="0dp"
+        android:padding="5dp"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/responseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/colorPrimary"
+        android:text="Results" />
+
+
+    <TextView
+        android:id="@+id/link_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:text="To check if plant can be revived click here"/>
+
+
+</LinearLayout>
