@@ -3,7 +3,7 @@ The project presents a non-invasive technique used for stress detection in tomat
 
 
 <ol>
-<b>Papers related to the project:<br><b/>
+<b>Papers based on the project:<br><b/>
 <li> <a href="https://ieeexplore.ieee.org/document/8987900">Image Processing based application of Thermal Imaging for Monitoring Stress Detection in Tomato Plants-<a/>
 2019 International Conference on Smart Systems and Inventive Technology (ICSSIT).
 <li> <a href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003133681-16/application-deep-learning-coupled-thermal-imaging-detecting-water-stress-plants-saiqa-khan-meera-narvekar-anam-khan-aqdus-charolia-mushrifah-hasan">Application of Deep Learning Coupled with Thermal Imaging in Detecting Water Stress in Plants-<a/>Design of Intelligent Applications Using Machine Learning and Deep Learning Techniques book by CRC press,2021.
